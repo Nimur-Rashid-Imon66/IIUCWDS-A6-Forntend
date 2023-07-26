@@ -11,18 +11,18 @@ body{
     align-items: center;
     margin : 0 auto;
 }
+.hero{
+    background-image :url("img/Background_pattern.png");
+}
 header{
     width:1440px;
     height: 80px;
-    /* margin :0 auto; */
     padding-top: 18px;
     padding-bottom: 18px;
-    background: #FFF;
 }
 header .nav {
     width:1440px;
     height:80PX;
-    /* margin-top:18px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +33,6 @@ header .nav {
     align-self: flex-start;
     align-items: center;
     gap:40px;
-    /* background: red; */
 }
 .nav .right{
     display: flex;
@@ -129,12 +128,10 @@ header .nav {
 
 /* herosec */
 section{
-    /* background: gray; */
     padding-top: 96px;
     padding-bottom: 96px;
 }
 .sec1{
-    
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -217,7 +214,6 @@ section{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* align-i: center; */
 }
 
 .shape-con{
@@ -247,7 +243,6 @@ section{
 
 .sec{
     padding: 96px 0px;
-    /* background: #f1d7d7; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -255,9 +250,6 @@ section{
     gap: 64px;
     align-self: stretch;
 }
-/* .decp{
-    
-} */
 .decp .inside-con{
     display: flex;
     width: 1280px;
@@ -367,7 +359,7 @@ hr{
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px; 
 }
 
 .price-card .inside-con{
@@ -452,7 +444,6 @@ hr{
     align-items: center;
     gap:12px;
     color:  #475467;
-    /* Text md/Regular */
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -486,7 +477,6 @@ hr{
 
 .stats{
     display: flex;
-    /* background-color:#939598; */
 }
 
 .stats-con {
@@ -507,7 +497,6 @@ hr{
     align-items: center;
     gap: 64px;
     flex: 1 1 0;
-     /* background: #544f4f;   */
 }
 
 .stats-con .right img{
@@ -532,7 +521,6 @@ hr{
     align-items: flex-start;
     gap: 32px;
     align-self: stretch;
-    /* background: #7cc6e8;  */
 }
 
 .item2{
@@ -677,11 +665,10 @@ footer{
 
 .cpy-link li{
     color: var(--gray-300, #D0D5DD);
-    /* Text md/Regular */
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     list-style: none;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
 }
